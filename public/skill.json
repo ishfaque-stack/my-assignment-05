@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "icon":"FaReact",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": 4.9,
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "badge": "Popular"
+  },
+  {
+    "id": 2,
+    "name": "Vue.js",
+    "icon":"IoLogoVue",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": 4.8,
+    "description": "An approachable and versatile framework for building web user interfaces.",
+    "badge": "Versatile"
+  },
+  {
+    "id": 3,
+    "name": "Svelte",
+     "icon":"FaReact",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "A modern frontend framework that compiles components into highly optimized JavaScript.",
+    "badge": "Fast"
+  },
+  {
+    "id": 4,
+    "name": "Next.js",
+     "icon":"FaReact",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "description": "The React framework for building full-stack web applications.",
+    "badge": "Popular"
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+     "icon":"FaReact",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "A JavaScript runtime built on Chrome's V8 engine for scalable backend applications.",
+    "badge": "Standard"
+  },
+  {
+    "id": 6,
+    "name": "Express.js",
+     "icon":"FaReact",
+    "category": "Backend",
+    "level": "Beginner-Friendly",
+    "rating": 4.8,
+    "description": "A minimal and flexible Node.js web application framework.",
+    "badge": "Popular"
+  },
+  {
+    "id": 7,
+    "name": "PostgreSQL",
+     "icon":"FaReact",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "description": "A powerful open-source relational database system built for reliability and performance.",
+    "badge": "Top SQL"
+  },
+  {
+    "id": 8,
+    "name": "MongoDB",
+     "icon":"FaReact",
+    "category": "Database",
+    "level": "Beginner-Friendly",
+    "rating": 4.8,
+    "description": "A document-oriented NoSQL database designed for flexibility and scalability.",
+    "badge": "NoSQL"
+  },
+  {
+    "id": 9,
+    "name": "JavaScript",
+     "icon":"FaReact",
+    "category": "Language",
+    "level": "Beginner-Friendly",
+    "rating": 4.9,
+    "description": "The versatile programming language that powers interactive web applications.",
+    "badge": "Essential"
+  },
+  {
+    "id": 10,
+    "name": "TypeScript",
+     "icon":"FaReact",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "description": "A strongly typed programming language that builds on JavaScript.",
+    "badge": "Essential"
+  },
+  {
+    "id": 11,
+    "name": "Tailwind CSS",
+     "icon":"FaReact",
+    "category": "Styling",
+    "level": "Beginner-Friendly",
+    "rating": 4.9,
+    "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+    "badge": "Modern"
+  },
+  {
+    "id": 12,
+    "name": "Docker",
+     "icon":"FaReact",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "description": "A platform for building, sharing, and running applications in containers.",
+    "badge": "Containers"
+  }
+]
