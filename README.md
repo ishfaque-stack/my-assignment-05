@@ -51,27 +51,27 @@ The application shows the number of selected technologies, disables already sele
 Ans: JSX is a syntax that allows us to write HTML-like code inside JavaScript or TypeScript.
 It makes React code easier to read and helps us describe what the UI should look like.
 
-#2. What is the difference between props and state?
+##2. What is the difference between props and state?
 
 Ans: Props are used to pass data from a parent component to a child component.
 State is data managed inside a component that can change over time.
 In this project, skills are passed as props, while selectedSkills is managed using state.
 
-#3. What does the useState hook do, and where did you use it in this project?
+##3. What does the useState hook do, and where did you use it in this project?
 
 Ans: useState is a React Hook used to create and manage changing data inside a component.
 I used useState in Skilldata.tsx to store the technologies selected by the user.
 const [selectedSkills, setSelectedSkills] = useState<ISkill[]>([]);
 When a user adds or removes a technology, the state is updated and the UI changes automatically.
 
-#4 What does the useEffect hook do, and why did you need it to load the JSON data?
+##4 What does the useEffect hook do, and why did you need it to load the JSON data?
 
 Ans: useEffect is used to perform side effects in React, such as fetching data or working with external systems.
 However, I did not use useEffect in this project. I used fetch() with a Promise and React's use() Hook inside Suspense to load the JSON data.
 const res = await fetch("/skill.json");
 const data = await res.json();
 
-#5. Why does every item in a .map() list need a unique key prop?
+##5. Why does every item in a .map() list need a unique key prop?
 
 Ans: React uses the key prop to identify each item in a list.
 It helps React understand which items have changed, been added, or removed.
@@ -84,7 +84,7 @@ In this project, I used the skill name as the unique key:
   />
 ))}
 
-#6. What is conditional rendering? Show one place you used it.
+##6. What is conditional rendering? Show one place you used it.
 
 Ans: Conditional rendering means displaying different UI elements based on a condition.
 I used conditional rendering in the Your Stack section.
@@ -97,7 +97,7 @@ If there are no selected technologies, the application shows an empty stack mess
   ))
 )}
 
-#7. How do you pass data from a parent component to a child component, and how can the child send data back?
+##7. How do you pass data from a parent component to a child component, and how can the child send data back?
 
 Ans: Data is passed from a parent component to a child component using props.
 For example, I passed skills from Skilldata to Allskills:
